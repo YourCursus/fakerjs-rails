@@ -6,7 +6,7 @@ task :update do
   def download(version)
     base_url = 'https://raw.githubusercontent.com/Marak/faker.js'
     puts "Downlading Faker.js #{version} ..."
-    `curl -o vendor/assets/javascripts/switchery.js \
+    `curl -o vendor/assets/javascripts/faker.js \
       #{base_url}/v#{version}/build/build/faker.js`
   end
 

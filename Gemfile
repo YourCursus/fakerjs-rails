@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in switchery-rails.gemspec
+# Specify your gem's dependencies in fakerjs-rails.gemspec
 gemspec
